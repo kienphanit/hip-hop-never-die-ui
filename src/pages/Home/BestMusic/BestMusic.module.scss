@@ -1,0 +1,22 @@
+.wrapper{
+    h1{
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+    .list{
+        width: 100%;
+        display: flex;
+    }
+    .image{
+        width: calc((100vw - var(--width-sidebar) - 2 * var(--padding-content)) / 4);
+        max-width: calc((100vw - var(--width-sidebar) - 2 * var(--padding-content)) / 4);
+        max-height: calc((100vw - var(--width-sidebar) - 2 * var(--padding-content)) / 4);
+        height: calc((100vw - var(--width-sidebar) - 2 * var(--padding-content)) / 4);
+        padding:  14px;
+        img{
+            border-radius: 20px;
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

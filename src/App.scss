@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  font-family: Inter, sans-serif;
+  box-sizing: border-box;
+  user-select: none;
+  -webkit-user-select: none;
+  color: #fafafa;
+}
+
+:root {
+  --padding-content: 60px;
+  --height-footer: 90px;
+  --height-header: 70px;
+  --width-sidebar: 237px;
+
+  --blue-1: #2a213a;
+  --blue-2: #34224f;
+  --blue-3: #844d4d;
+  --blue-4: #644646;
+}
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+body {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}

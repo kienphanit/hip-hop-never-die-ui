@@ -1,0 +1,19 @@
+.container {
+  width: calc(100vw - var(--width-sidebar));
+  margin-left: var(--width-sidebar);
+}
+.content {
+  background-color: var(--blue-2);
+  padding: 0px var(--padding-content);
+  margin-top: var(--height-header);
+  padding-top: 20px;
+  height: calc(100vh - var(--height-header) - var(--height-footer));
+  overflow: auto;
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: rgba(#333, 0.4);
+    border-radius: 10px;
+  }
+}
