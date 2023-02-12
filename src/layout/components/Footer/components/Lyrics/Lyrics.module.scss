@@ -1,0 +1,38 @@
+.lyrics{
+  position: fixed;
+  z-index: 100;
+  width: 100vw;
+  height: calc(100vh - 90px);
+  background-color: pink;
+  left: 0;
+  transition: all 0.5s ease;
+  .content_lyrics{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    .logo{
+      margin-right: 100px;
+      img{
+        width: 400px;
+      }
+    }
+    .list_lyrics{
+      width: 500px;
+      max-width: 80%;
+      height: calc(100vh - 90px);
+      overflow: auto;
+      &::-webkit-scrollbar{
+        display: none;
+      }
+      .item_lyrics{
+        font-size: 30px;
+        font-weight: 800;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+.highlighted{
+  color: red;
+}

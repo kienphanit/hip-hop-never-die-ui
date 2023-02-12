@@ -1,0 +1,65 @@
+.list {
+  min-width: 330px;
+  width: 330px;
+  height: calc(100vh - 90px);
+  max-height: calc(100vh - 90px);
+  overflow: auto;
+  right: 0;
+  background-color: white;
+  padding: 12px;
+  position: fixed;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: all 0.5s ease;
+  .song {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    background-color: #fff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    .option,
+    .author,
+    .title {
+      color: #130c1c;
+    }
+  }
+
+  .active {
+    background-color: pink;
+    .option,
+    .author,
+    .title {
+      color: #fff;
+    }
+  }
+
+  .song .thumb {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-size: cover;
+    margin: 0 8px;
+  }
+
+  .song .body {
+    flex: 1;
+    padding: 0 16px;
+  }
+
+  .song .title {
+    font-size: 18px;
+    color: var(--text-color);
+  }
+
+  .song .author {
+    font-size: 12px;
+    color: #999;
+  }
+
+  .song .option {
+    padding: 16px 8px;
+    color: #999;
+    font-size: 18px;
+  }
+}

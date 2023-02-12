@@ -21,6 +21,7 @@ const Sidebar = () => {
     { path: "/categories", name: "Thể loại", icon: faHeartMusicCameraBolt },
     { path: "/top", name: "Top 100", icon: faStar },
     { path: "/tiktok", name: "Tiktok", icon: faTiktok },
+    { path: "/artists", name: "Artists", icon: faTiktok },
   ];
 
  
